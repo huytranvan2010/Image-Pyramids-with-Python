@@ -1,7 +1,7 @@
 # 1. Mở đầu
 Image pyramid cách biểu diễn hình ảnh với nhiều tỉ lệ khác nhau. Sử dụng image pyramid cho phép chúng ta có thể tìm thấy vật thể với nhiều kích thước khác nhau trong ảnh. Kết hợp với sliding window có thể tìm được vật thể ở các vị trí khác nhau.
 
-![pyramid](https://www.google.ru/url?sa=i&url=https%3A%2F%2Finst.eecs.berkeley.edu%2F~cs194-26%2Ffa18%2Fupload%2Ffiles%2Fproj1%2Fcs194-26-adb%2Fmarisa_wong_code_proj1%2F&psig=AOvVaw02n5d2OAlMBWbVMWvdw5xz&ust=1619524832031000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIiZv6num_ACFQAAAAAdAAAAABAT)
+![pyramid](https://pyimagesearch.com/wp-content/uploads/2015/03/pyramid_example.png)
 
 Ở đáy là ảnh với kích thước ban đầu. Ở mỗi layer tiếp theo là ảnh đã được resize lại (subsample) có kết hợp với làm mở (tùy chon, ví dụ Gaussian blurring). Khi nào kích thước của ảnh thỏa mãn điều kiện thì không giảm nữa. Trong bài này sẽ giới thiệu 2 phương pháp để lấy image pyramid:
 - Dùng OpenCV
