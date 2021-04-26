@@ -1,5 +1,5 @@
 # 1. Mở đầu
-Image pyramid cách biểu diễn hình ảnh với nhiều tỉ lệ khác nhau. Sử dụng image pyramid cho phép chúng ta có thể tìm thấy vật thể với nhiều kích thước khác nhau trong ảnh. Kết hợp với sliding window có thể tìm được vật thể ở các vị trí khác nhau.
+**Image pyramid** là cách biểu diễn hình ảnh với nhiều tỉ lệ khác nhau. Sử dụng image pyramid cho phép chúng ta có thể tìm thấy vật thể với nhiều kích thước khác nhau trong ảnh. Kết hợp với sliding window có thể tìm được vật thể ở các vị trí khác nhau.
 
 ![pyramid](https://pyimagesearch.com/wp-content/uploads/2015/03/pyramid_example.png)
 
